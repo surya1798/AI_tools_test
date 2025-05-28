@@ -1,0 +1,6 @@
+export type AppointmentCreateInput = {
+  appointmentDate?: Date | null;
+  appointmentTime?: string | null;
+  doctorId?: string | null;
+  patientId: string;
+};
